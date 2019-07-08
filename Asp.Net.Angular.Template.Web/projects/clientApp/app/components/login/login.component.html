@@ -1,0 +1,28 @@
+<div class="login-bg">
+  <mat-card class="login-card" color="primary">
+    <div *ngIf="(globalSettings$ | async) as settings">
+      <mat-toolbar color="primary">
+        <mat-icon>lock</mat-icon>
+
+        <span> Login to {{settings.websiteName}}</span>
+      </mat-toolbar>
+    </div>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <p>
+        <mat-form-field class="full-width">
+          <input matInput formControlName="userName" placeholder="User Name">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field class="full-width">
+          <input matInput type="password" formControlName="password" placeholder="Password">
+        </mat-form-field>
+      </p>
+
+      <mat-card-actions layout="row" layout-align="end center">
+        <button type="submit" mat-flat-button color="primary" [disabled]="loading">Login</button>
+      </mat-card-actions>
+    </form>
+  </mat-card>
+
+</div>

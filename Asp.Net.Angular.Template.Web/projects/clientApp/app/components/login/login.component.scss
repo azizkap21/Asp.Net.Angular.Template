@@ -1,0 +1,17 @@
+@import "../../../_variables.scss";
+
+.login-card {
+  width: 50%;
+  height: 50%;
+  margin: 20% auto;
+  
+}
+
+.full-width {
+  width: 90%;
+}
+
+.action {
+  margin: 10px auto;
+  flex-direction: row-reverse;
+}

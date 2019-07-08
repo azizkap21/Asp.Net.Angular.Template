@@ -1,0 +1,160 @@
+@import "../../../_variables.scss";
+/*.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}*/
+
+.menu-button {
+  display: block;
+  width: 50px;
+  height: 40px;
+  background-color: $app-blue;
+}
+
+.app-toolbar {
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0; /* Sets the sticky toolbar to be on top */
+  z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,.24);
+}
+
+.sidenav-container {
+  height: 93%;
+  position: sticky;
+  margin: 0;
+  /*padding: 3px;*/
+}
+
+.mat-list-base {
+  padding-top: 0;
+
+}
+
+.sidenav {
+  width: 210px;
+  /*box-shadow: 3px 0 6px rgba(0,0,0,.24);*/
+  background: #eee;
+}
+
+
+.sidenav mat-nav-list a {
+  border-bottom: 1px #338309 dotted;
+  border-right: 1 px #338309 solid;
+  padding: 0;
+  width: 97%;
+}
+
+mat-nav-list a:hover {
+  /*border-left: 5px solid blue;*/
+  /*margin-left: 0;*/
+}
+
+.mat-drawer-side {
+  border-right: none;
+}
+
+.mat-list-item  {
+  padding-left: 5px;
+  /*margin-left: 2px;*/
+  border-left: 5px solid $app-blue;
+}
+
+mat-nav-list a:active, mat-nav-list a::selection, mat-nav-list a:focus {
+  background: #fff;
+}
+
+.sidenav mat-nav-list a:first-child {
+  border-top: 1px #338309 solid;
+}
+
+mat-nav-list a:active mat-icon, mat-nav-list a:focus mat-icon, mat-nav-list a:hover mat-icon {
+  /*margin-left: 5px;*/
+}
+
+mat-icon {
+  margin-right: 5px;
+  margin-left: 10px;
+  padding: 2px;
+  vertical-align: central;
+  line-height: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/*.container {
+    margin-left: 10px;
+}*/
+
+
+mat-nav-list a.selected-item {
+  border-left: 5px solid $app-dark-blue;
+  background: #fff;
+  border-right: none;
+  padding-left: 0;
+}
+
+mat-nav-list a.selected-item mat-icon {
+  /*margin-left: 5px;*/
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.header-menu-container {
+  margin: 10px;
+  display: flex;
+  background: $app-blue;
+  align-content: flex-start;
+  justify-content: flex-end;
+  border-radius: 20px;
+  padding: 2px 15px;
+}
+
+.header-menu-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-menu-container mat-icon {
+  color: #efefef;
+  text-decoration: none;
+  padding: 0;
+  text-align: center;
+  vertical-align: central;
+  
+  justify-content: center;
+  font-size: 30px;;
+}
+
+.header-spacer {
+  width: 800px;
+  height: 40px;
+  background: white;
+}
+/*.header-menu-content{
+  width: 400px;
+}*/
+/*.selected-item:active {
+  background: #58e119;
+  color: white;
+}
+
+.selected-item:hover {
+  background: #58e119;
+  color: white;
+}*/

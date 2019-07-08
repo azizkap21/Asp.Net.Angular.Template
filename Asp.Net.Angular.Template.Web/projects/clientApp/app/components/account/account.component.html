@@ -1,0 +1,10 @@
+<button class="header-menu-container" mat-button [matMenuTriggerFor]="account">
+  {{userName}}
+  <mat-icon>person</mat-icon>
+</button>
+
+<mat-menu #account="matMenu">
+
+  <button mat-menu-item *ngIf="!loggedin">Login</button>
+  <button mat-menu-item *ngIf="loggedin">Logout</button>
+</mat-menu>

@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E15FA274-B216-4F05-86C3-A62DCC3C7F6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.Net.Angular.Template.Web", "Asp.Net.Angular.Template.Web\Asp.Net.Angular.Template.Web.csproj", "{82E025D9-35BD-4F1E-A155-7167E7FC10FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.Net.Angular.Template.Service", "Asp.Net.Angular.Template.Service\Asp.Net.Angular.Template.Service.csproj", "{6A90D56D-5D35-4582-B00B-A26DFEEC3ED0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.Net.Angular.Template.DataEntity", "Asp.Net.Angular.Template.DataEntity\Asp.Net.Angular.Template.DataEntity.csproj", "{5E7A8036-5F65-41BB-85B8-75E915F1A074}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.Net.Angular.Template.DataContext", "Asp.Net.Angular.Template.DataContext\Asp.Net.Angular.Template.DataContext.csproj", "{3CE1567C-EEDF-4645-A23C-CB001E0BE97C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.Net.Angular.Template.Api", "Asp.Net.Angular.Template.Api\Asp.Net.Angular.Template.Api.csproj", "{F8326CBC-A2D4-4186-A6F1-D41A13DE94F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.Net.Angular.Template.Contract", "Asp.Net.Angular.Template.Contract\Asp.Net.Angular.Template.Contract.csproj", "{069D5B24-ECDE-424B-959F-10D94073ADA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.Net.Angular.Template.Tests", "Asp.Net.Angular.Template.Tests\Asp.Net.Angular.Template.Tests.csproj", "{0A52F375-3DD1-433B-A037-4F087243415E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.Net.Angular.Template.Tests.Integration", "Asp.Net.Angular.Template.Tests.Integration\Asp.Net.Angular.Template.Tests.Integration.csproj", "{08B8EB26-157D-4C06-B3B3-3EB83BB71E36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.Net.Angular.Template.Abstraction", "Asp.Net.Angular.Template.Abstraction\Asp.Net.Angular.Template.Abstraction.csproj", "{7F49A723-005A-417B-9745-0C9CA9B94C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.Net.Angular.Template.DataStore", "Asp.Net.Angular.Template.DataStore\Asp.Net.Angular.Template.DataStore.csproj", "{152B3CC7-A932-45B9-903E-664F3F43036F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82E025D9-35BD-4F1E-A155-7167E7FC10FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E025D9-35BD-4F1E-A155-7167E7FC10FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E025D9-35BD-4F1E-A155-7167E7FC10FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E025D9-35BD-4F1E-A155-7167E7FC10FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A90D56D-5D35-4582-B00B-A26DFEEC3ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A90D56D-5D35-4582-B00B-A26DFEEC3ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A90D56D-5D35-4582-B00B-A26DFEEC3ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A90D56D-5D35-4582-B00B-A26DFEEC3ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7A8036-5F65-41BB-85B8-75E915F1A074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7A8036-5F65-41BB-85B8-75E915F1A074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7A8036-5F65-41BB-85B8-75E915F1A074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7A8036-5F65-41BB-85B8-75E915F1A074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE1567C-EEDF-4645-A23C-CB001E0BE97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE1567C-EEDF-4645-A23C-CB001E0BE97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE1567C-EEDF-4645-A23C-CB001E0BE97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE1567C-EEDF-4645-A23C-CB001E0BE97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8326CBC-A2D4-4186-A6F1-D41A13DE94F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8326CBC-A2D4-4186-A6F1-D41A13DE94F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8326CBC-A2D4-4186-A6F1-D41A13DE94F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8326CBC-A2D4-4186-A6F1-D41A13DE94F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069D5B24-ECDE-424B-959F-10D94073ADA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069D5B24-ECDE-424B-959F-10D94073ADA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069D5B24-ECDE-424B-959F-10D94073ADA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069D5B24-ECDE-424B-959F-10D94073ADA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A52F375-3DD1-433B-A037-4F087243415E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A52F375-3DD1-433B-A037-4F087243415E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A52F375-3DD1-433B-A037-4F087243415E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A52F375-3DD1-433B-A037-4F087243415E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B8EB26-157D-4C06-B3B3-3EB83BB71E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B8EB26-157D-4C06-B3B3-3EB83BB71E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B8EB26-157D-4C06-B3B3-3EB83BB71E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B8EB26-157D-4C06-B3B3-3EB83BB71E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F49A723-005A-417B-9745-0C9CA9B94C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F49A723-005A-417B-9745-0C9CA9B94C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F49A723-005A-417B-9745-0C9CA9B94C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F49A723-005A-417B-9745-0C9CA9B94C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152B3CC7-A932-45B9-903E-664F3F43036F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152B3CC7-A932-45B9-903E-664F3F43036F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152B3CC7-A932-45B9-903E-664F3F43036F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152B3CC7-A932-45B9-903E-664F3F43036F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A52F375-3DD1-433B-A037-4F087243415E} = {E15FA274-B216-4F05-86C3-A62DCC3C7F6E}
+		{08B8EB26-157D-4C06-B3B3-3EB83BB71E36} = {E15FA274-B216-4F05-86C3-A62DCC3C7F6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C4A7A49-F6BF-4078-8A84-EE70C6C2D1B0}
+	EndGlobalSection
+EndGlobal
