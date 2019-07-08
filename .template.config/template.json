@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Aziz Kapadia",
+  "classifications": [ "Common", "WebApiAngular" ],
+  "tags": {
+	"language": "C#" 
+  },
+  "identity": "Asp.Net.Angular.Template",
+  "name": "Verve Web Api with Angular Template",
+  "shortName": "angularapitemplate",
+  "sourceName": "Asp.Net.Angular.Template"
+}

@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="projects\clientApp\src\**" />
+    <Content Remove="projects\clientApp\src\**" />
+    <EmbeddedResource Remove="projects\clientApp\src\**" />
+    <None Remove="projects\clientApp\src\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="projects\clientApp\app\components\custom-module.ts" />
+    <None Remove="projects\clientApp\app\global.ts" />
+    <None Remove="projects\clientApp\app\models\credential.ts" />
+    <None Remove="projects\clientApp\app\models\global-settings.ts" />
+    <None Remove="projects\clientApp\app\modules\authentication-response.ts" />
+    <None Remove="projects\clientApp\app\modules\index.ts" />
+    <None Remove="projects\clientApp\app\services\application-settings.service.ts" />
+    <None Remove="projects\clientApp\app\services\auth-gaurd.service.ts" />
+    <None Remove="projects\clientApp\app\services\authentication.service.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.10.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.7.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="SwashBuckle.AspNetCore.MicrosoftExtensions" Version="0.5.0" />
+  </ItemGroup>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish" Condition=" '$(Configuration)' == 'Release'">
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build-prod" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish" Condition=" '$(Configuration)' == 'Debug'">
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build" />
+  </Target>
+  
+  <ItemGroup>
+    <Folder Include="projects\clientApp\app\components\main-menu\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Asp.Net.Angular.Template.Abstraction\Asp.Net.Angular.Template.Abstraction.csproj" />
+    <ProjectReference Include="..\Asp.Net.Angular.Template.Service\Asp.Net.Angular.Template.Service.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <TypeScriptCompile Include="projects\clientApp\app\global.ts" />
+    <TypeScriptCompile Include="projects\clientApp\app\models\authentication-response.ts" />
+    <TypeScriptCompile Include="projects\clientApp\app\models\credential.ts" />
+    <TypeScriptCompile Include="projects\clientApp\app\models\global-settings.ts" />
+    <TypeScriptCompile Include="projects\clientApp\app\modules\index.ts" />
+    <TypeScriptCompile Include="projects\clientApp\app\services\application-settings.service.ts" />
+    <TypeScriptCompile Include="projects\clientApp\app\services\auth-gaurd.service.ts" />
+    <TypeScriptCompile Include="projects\clientApp\app\services\authentication.service.ts" />
+  </ItemGroup>
+
+</Project>

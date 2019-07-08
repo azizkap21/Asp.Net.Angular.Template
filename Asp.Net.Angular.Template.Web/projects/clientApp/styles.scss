@@ -1,0 +1,180 @@
+
+@import './_variables.scss';
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.form-card {
+  min-width: 25px;
+  width: 80%;
+  margin: 5% auto;
+  padding: 0;
+  border: 1px solid $app-blue;
+}
+
+.form-header {
+  display: block;
+  margin: 0;
+  background: $app-blue;
+  color: $app-header-color;
+  padding: 10px 2px;
+}
+
+
+
+.form {
+  min-width: 50px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.control-full-width {
+  width: 90%;
+}
+
+.spacer {
+  flex: 1 1 auto;
+  height: 100%;
+}
+
+mat-icon {
+  padding: 2px;
+}
+
+.field-width-90 {
+  width: 90%;
+}
+
+.form-div {
+  .login-card {
+    width: 80%;
+    margin: 10% auto;
+  }
+}
+
+.card-action {
+  margin: 10px auto;
+  flex-direction: row-reverse;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background: #2a2929;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  opacity: .7;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 100;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.label {
+  font-weight: bold;
+  color: $app-blue;
+  padding: 0;
+}
+
+.label-info {
+  color: #1c2655;
+}
+
+.label-colored {
+  padding: 10px;
+  background: $app-blue;
+  display: block;
+  width: 98%;
+  padding-left: 5px;
+  padding-right: 0;
+  color: white;
+}
+
+.label-badge {
+  margin: 40% auto;
+  padding: 0;
+  border-radius: 25%;
+  background: $app-blue;
+  color: white;
+  padding: 10px 13px;
+}
+
+.fx-grid-tile, .fx-grid-inner-tile, .fx-grid-tile-noscroll {
+  width: 99%;
+  height: 97%;
+  justify-content: flex-start !important;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.fx-grid-tile, .fx-grid-inner-tile {
+  overflow: auto;
+}
+
+.fx-grid-inner-tile {
+  background: #efefef;
+  font-size: 12px;
+  margin: 5px auto;
+  /*padding: 2px 10px;*/
+}
+
+.fx-grid-tile {
+  padding-left: 5px !important;
+}
+
+.grid-div:first-child {
+  border-left: 1px solid $app-header-color;
+}
+
+.grid-list:nth-child(2n) {
+  background: #f2f3f6;
+}
+
+.grid-table-col {
+  border-right: 1px solid $app-header-color;
+  border-collapse: collapse;
+}
+
+.grid-border {
+  border-bottom: 1px dotted $app-blue;
+}
+
+.grid-border:first-child {
+  border-top: 1px solid $app-blue;
+}
+
+.grid-border:last-child {
+  border-bottom: 1px solid $app-blue;
+}
+
+
+.app-content {
+  height: 100%;
+  width: 99%;
+  margin: 0 auto;
+  padding: 5px 2px;
+  border: 2px solid white;
+}
+
+.header-title {
+  margin-left: 10px;
+  font-size: .9em;
+}

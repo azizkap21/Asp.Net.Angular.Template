@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Asp.Net.Angular.Template.Contract\Asp.Net.Angular.Template.Contract.csproj" />
+    <ProjectReference Include="..\Asp.Net.Angular.Template.DataEntity\Asp.Net.Angular.Template.DataEntity.csproj" />
+  </ItemGroup>
+
+</Project>

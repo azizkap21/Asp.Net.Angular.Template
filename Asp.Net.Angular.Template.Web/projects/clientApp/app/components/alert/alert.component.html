@@ -1,0 +1,6 @@
+<div class="alert-container">
+    <div *ngFor="let alert of alerts$ | async" class="alert-message {{cssClass(alert)}}">
+        {{alert.message}}
+        <a class="close" (click)="removeAlert(alert) "><mat-icon>highlight_off</mat-icon></a>
+    </div>
+</div>
